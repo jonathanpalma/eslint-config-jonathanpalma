@@ -21,7 +21,7 @@
 
 ## Usage
 
-Install the conventions by running:
+Install them by running:
 
 ```
 npm install --save-dev eslint eslint-config-jonathanpalma
@@ -45,6 +45,13 @@ Then add the extends to your `.eslintrc`:
 }
 ```
 
+Then require the prettier conf by adding to your `prettier.config.js` or `.prettierrc.js` file:
+
+```javascript
+const prettier = require('eslint-config-jonathanpalma/prettier');
+
+module.exports = prettier;
+```
 
 ## LICENSE
 
