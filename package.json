@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-jonathanpalma",
+  "version": "1.0.0",
+  "description": "Jonathan Palma's ESLint rules",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "jonathanpalma",
+    "javascript",
+    "styleguide"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanpalma/eslint-config-jonathanpalma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanpalma/eslint-config-jonathanpalma/issues"
+  },
+  "homepage": "https://github.com/jonathanpalma/eslint-config-jonathanpalma#readme",
+  "author": "Jonathan Palma <tanpalma04@gmail.com> (http://jonathanpalma.me)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=5"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
