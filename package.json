@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jonathanpalma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jonathan Palma's ESLint rules",
   "main": "index.js",
   "keywords": [
